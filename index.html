@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LIMS</title>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+	<div class="wrapper">
+			<header>
+				<div class="logo">
+					<h2>LIMS</h2>
+				</div>
+				<div class="menu">
+						<nav>
+							<ul class="general-menu">
+								<li><a href="#"><img src="тест-верстальщик/burger-menu.png"></a></li>
+								<li class="button1"><a href="#">Instruments <img class="arrow-down" src="тест-верстальщик/Arrow-Dark-down.png"></a>
+									<ul class="general-item">
+										<li class="item">View all</li>
+										<li class="item">Add new</li>
+									</ul>
+								</li>
+								<li><a href="#">Widgets</a></li>
+								<li><a href="#">View</a></li>
+								<li><a href="#">Administration</a></li>
+							</ul>
+						</nav>
+						<div class="account-settings">
+							<div class="line"></div>
+							<div class="account">
+								<div><img src="тест-верстальщик/Profile.png"></div>
+								<div><p>Alexander</p></div>
+							</div>
+							<div class="line"></div>
+							<div class="lang">
+								<div><p>EN</p></div>
+								<div><img src="тест-верстальщик/Arrow-Dark-down.png"></div>
+							</div>
+							<div class="line"></div>
+							<div class="lock">
+								<img src="тест-верстальщик/unlock-icon.png">
+							</div>
+						</div>
+				</div>
+			</header>
+			<main>
+				<div class="sidebar">
+					<div class="search">
+						<div><p>Search</p></div>
+						<div><img src="тест-верстальщик/search.png"></div>
+					</div>
+					<hr/>
+					<div class="timer">
+						<div class="run-timer">
+							<div class="run"><p>Run</p><div class="minute">00</div>:<div class="second">00</div>:<div class="millisecond">00</div></div>
+						</div>
+						<div class="run-switch">
+							<div><p>RUN</p></div>
+							<div class="switch">
+								<div class="switch-on">
+									<button class="start"></button>
+									<p>ON</p>
+								</div>
+								<div class="switch-off">
+									<button class="stop"></button>
+									<p>OFF</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<article>
+						<div class="block">
+							<div class="head">
+								<div class="ind1"></div>
+								<div><p><b>Sampler</b></p></div>
+							</div>
+							<hr/>
+							<div class="sampler">
+								<div ><img src="тест-верстальщик/sampler-icon.svg"/></div>
+								<div>
+									<div class="thermostat"><img src="тест-верстальщик/thermostat.png"></div>
+									<div class="vial"><img src="тест-верстальщик/vial.png"></div>
+								</div>
+							</div>
+						</div>
+						<div class="block">
+							<div class="head">
+								<div class="ind2"></div>
+								<div><p><b>Quat.Pump</b></p></div>
+							</div>
+							<hr/>
+							<div class="quat">
+								<div class="bottle">
+									<div class="text-bottle"><p>A</p></div>
+									<img src="тест-верстальщик/bottle_filling_sprite_white.svg">
+									<p>0.0</p>
+								</div>
+								<div class="bottle">
+									<div class="text-bottle"><p>B</p></div>
+									<img src="тест-верстальщик/bottle_filling_sprite.svg">
+									<p>100.0</p>
+								</div>
+								<div class="valve"><img src="тест-верстальщик/valve-icon.svg"></div>
+							</div>
+							<div class="text-quat"><p>1.000 ml_/min</p></div>
+						</div>
+						<button id="circle_button"><img src="тест-верстальщик/Arrow-Dark-down.png"></button>
+				</article>
+				<div id="main">
+					<div class="box1">
+						<div class="box-header">
+							<div class="gray-part">
+								<nav>
+									<ul class="box-menu">
+										<li class="box-menu-item"><a href="#">WORKLIST <img src="тест-верстальщик/arrow-blue.png"><span>RUN</span></a></li>
+										<li class="box-menu-item"><a href="#">TO DO: 23 injections</a></li>
+										<li class="box-menu-item"><a href="#">02:15:00</a></li>
+										<li class="box-menu-item white-item"><a href="#">METHOD:Method1.amx (00:00/04:30)</a></li>
+										<li class="box-menu-item"><a href="#">SINGLE RUN</a></li>
+									</ul>
+								</nav>
+							</div>
+							<div class="white-part"></div>
+						</div>
+						<hr/>
+						<div class="box-main">
+							<div class="aside">
+								<div class="gray-row"><p>ALS</p></div>
+								<hr/>
+								<div class="gray-row"><p>Inlets</p></div>
+								<hr/>
+								<div class="white-row"><p>Columns</p></div>
+								<hr/>
+							</div>
+							<div class="section1">
+								<div class="part1">
+									<div class="shape">
+										<div class="shape-title"><p>Front Inlet</p></div>
+										<div><img src="тест-верстальщик/img1.png"></div>
+										<div class="shape-subtitle"><p><b>SS (H<sub>2</sub>)</b></p></div>
+									</div>
+									<div class="arrow"><img src="тест-верстальщик/long-arrow.png"></div>
+									<div class="shape">
+										<div class="shape-title"><p>Agilent 19091Q-002</p></div>
+										<div><img src="тест-верстальщик/img2.png"></div>
+										<div class="shape-subtitle"><p>60 °C – 450 °C (450 °C)</br> 25m * 320 µm * 1 µm</p></div>
+									</div>
+									<div class="arrow"><img src="тест-верстальщик/long-arrow.png"></div>
+									<div class="shape">
+										<div class="shape-title"><p>Back Detector</p></div>
+										<div><img src="тест-верстальщик/img3.png"></div>
+										<div class="shape-subtitle"><p><b>NPD</b></p></div>
+									</div>
+									<div class="text-box">
+										<p>(Initial):0min<br/>
+											ArMe @ 35 °C Oven<br/>
+										Out: Ambient Pressure<br/>25m * 320 µm * 1 µm</p>
+									</div>
+								</div>
+								<div class="part2">
+									<div class="part-title"><span><b>Control Mode</b></span></div>
+									<div id="checkbox"><input type="checkbox"><label>On</label></div>
+									<div class="part2 blocks">
+										<div class="block1">
+											<form style="display: flex;" name="test" method="post" action="#">
+												<p>Flow</p><input type="text" size="5">
+													<p>ml/min</p>
+											</form>
+											<form style="display: flex;" name="test" method="post" action="#">
+												<p>Pressure</p><input type="text" size="5">
+													<p>psi</p>
+											</form>
+										</div>
+										<div class="block1">
+											<form style="display: flex;" name="test" method="post" action="#">
+												<p>Average Velocity</p><input type="text" size="5">
+													<p>cm/sec</p>
+											</form>
+											<form style="display: flex;" name="test" method="post" action="#">
+												<p>Holdup Time</p><input type="text" size="5">
+													<p>min</p>
+											</form>
+										</div>
+									</div>
+								</div>
+								<div class="part3">
+									<div class="part-title"><span><b>Post Run</b></span></div>
+									<div class="input-part3"><form style="display: flex;" name="test" method="post" action="#">
+												<p>Post Run</p><input type="text" size="5">
+													<p>ml/min</p>
+											</form></div>
+								</div>
+							</div>
+							<div class="section2">
+								<div class="part-title"><span><b>Pressure/Flow Settings</b></span></div>
+								<div class="checkboxes">
+									<label><input type="radio" checked name="dva"/><b>Constant Pressure</b></label> 
+									<label><input type="radio" name="dva"/> <b>Ramped Pressure</b></label>
+									<label><input type="radio" name="dva"/> <b>Constant Flow</b></label>
+									<label><input type="radio" name="dva"/> <b>Ramped Flow</b></label>
+								</div>
+								<table>
+									<tr>
+										<th></th>
+										<th>Ramp##</th>
+										<th>Rate, ml/min</th>
+										<th>Value, ml/min</th>
+										<th>Hold Time, min</th>
+										<th>Run Time, min</th>
+									</tr>
+									<tr>
+										<td></td>
+										<td>(Initial))</td>
+										<td></td>
+										<td>23456</td>
+										<td>0</td>
+										<td>0</td>
+									</tr>
+									<tr class="row3">
+										<td><label><input type="radio" checked name="dva"/></label> </td>
+										<td>Ramp1</td>
+										<td>10</td>
+										<td>23456</td>
+										<td>0</td>
+										<td>0</td>
+									</tr>
+									<tr>
+										<td><label><input type="radio" checked name="dva"/></label> </td>
+										<td>Ramp1</td>
+										<td>20</td>
+										<td>23456</td>
+										<td>5</td>
+										<td>26</td>
+									</tr>
+								</table>
+							</div>
+						</div>
+						<div class="box-footer">
+							<div id="circles">
+								<div class="footer-circle">
+									<div><img src="тест-верстальщик/circle-new.png"></div>
+									<div><p>New</p></div>
+								</div>
+								<div class="footer-circle">
+									<div><img src="тест-верстальщик/circle-open.png"></div>
+									<div><p>Open</p></div>
+								</div>
+							</div>
+							<div class="buttons">
+								<button class="button2">Save</button>
+								<button class="button2">Save as</button>
+								<button class="button3">Cancle</button>
+							</div>
+						</div>
+					</div>
+					<div class="boxes">
+						<div class="box2">
+							<div class="head">
+									<div><p><b>LIVE CHART</b></p></div>
+								</div>
+								<hr/>
+								<div id="diagramma-box">
+									<div>
+										<div class="legends">
+											<div class="legend">
+											<div><img src="тест-верстальщик/green-legend.png"></div>
+											<div><p><b>Plot</b></p></div>
+											</div>
+											<div class="legend">
+											<div><img src="тест-верстальщик/purple-legend.png"></div>
+											<div><p><b>Plot</b></p></div>
+											</div>
+											<div class="legend">
+											<div><img src="тест-верстальщик/yellow-legend.png"></div>
+											<div><p><b>Plot</b></p></div>
+											</div>
+										</div>
+										<div class="diagramma">
+											<img src="тест-верстальщик/diagram.png"/>
+										</div>
+									</div>
+									<div class="diagramma-var">
+										<img src="тест-верстальщик/right-BAR.png">
+									</div>
+								</div>
+						</div>
+						<div class="box3">
+							<div class="head">
+									<div><p><b>SPECTRA</b></p></div>
+								</div>
+								<hr/>
+						</div>
+					</div>
+				</div>
+			</main>
+	</div>
+
+<script>
+	//time fields
+
+const minuteElement = document.querySelector('.minute')
+const secondElement = document.querySelector('.second')
+const millisecondElement = document.querySelector('.millisecond')
+
+//buttons
+
+const startButton = document.querySelector('.start')
+const stopButton = document.querySelector('.stop')
+
+//listeners
+startButton.addEventListener('click', () =>{
+	clearInterval(interval)
+	interval = setInterval(startTimer, 10)
+})
+
+stopButton.addEventListener('click', () =>{
+	clearInterval(interval)
+	clearFields()
+})
+
+// variables
+
+let minute = 00, second = 00, millisecond = 00, interval;
+
+
+function startTimer(){
+//millisecond
+	millisecond++
+	if(millisecond < 9){
+		millisecondElement.innerText = '0' + millisecond
+	}
+	if(millisecond > 59){
+		second++
+		secondElement.innerText = '0' + second
+		millisecond = 0
+		millisecondElement.innerText = '0' + millisecond
+	}
+	if(millisecond > 9){
+		millisecondElement.innerText = millisecond
+	}
+
+//seconds
+
+	if(second < 9){
+		secondElement.innerText = '0' + second
+	}
+	if(second > 9){
+		secondElement.innerText = second
+	}
+	if (second > 59){
+		minute++
+		minuteElement.innerText = '0' + minute
+		second = 0
+		secondElement.innerText = '0' + second
+	}
+
+
+//minutes
+
+	if(minute > 9){
+		minuteElement.innerText = minute
+	}
+
+}
+
+
+function clearFields(){
+	minute = 00
+	second = 00
+	millisecond = 00
+	secondElement.textContent = '00'
+	minuteElement.textContent = '00'
+	millisecondElement.textContent = '00'
+}
+</script>
+</body>
+</html>
