@@ -385,7 +385,7 @@ article{
 #circle_button{
 	position: absolute;
 	top: 50px;
-	left: 215px;
+	left: 200px;
 	border:none;
 	border-radius: 50%;
 
@@ -398,6 +398,9 @@ article{
 }
 	#circle_button img{
 		transform: rotate(270deg);
+		
+		margin: auto;
+		top: -50%;
 	}
 	
 		#circle_button:hover {
